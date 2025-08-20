@@ -1,15 +1,16 @@
-🌍 FS25 Language Translator
+# 🌍 FS25 Language Translator
 
-A professional translation tool for Farming Simulator 25 XML language files. Automatically translate your mod's language files to 26 different languages using DeepL and Google Translate.
-
+[![GitHub](https://img.shields.io/badge/GitHub-piplarsson-blue)](https://github.com/piplarsson)
 ![GitHub release](https://img.shields.io/github/v/release/piplarsson/FS25_Language_Translator)
 ![GitHub stars](https://img.shields.io/github/stars/piplarsson/FS25_Language_Translator)
 ![GitHub issues](https://img.shields.io/github/issues/piplarsson/FS25_Language_Translator)
 ![GitHub license](https://img.shields.io/github/license/piplarsson/FS25_Language_Translator)
-
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Version](https://img.shields.io/badge/Version-1.0.0-green)]()
+[![Python](https://img.shields.io/badge/Python-3.6+-yellow)](https://www.python.org/)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+A professional translation tool for Farming Simulator 25 XML language files. Automatically translate your mod's language files to 26 different languages using DeepL and Google Translate.
 
 ## ✨ Features
 
@@ -193,3 +194,7 @@ Made with ❤️ for the Farming Simulator modding community
 
 Not affiliated with GIANTS Software GmbH
 
+
+## 👨‍💻 Author
+
+Created by **Piplarsson**
