@@ -55,19 +55,20 @@ All official FS25 languages are supported:
 
 ### Installation
 
-1. **Clone the repository:**
+# 1. **Clone the repository:**
 ```bash
 git clone https://github.com/piplarsson/FS25_Language_Translator.git
 cd FS25_Language_Translator
+```
 
-2. Install dependencies:
-
-bashpip install -r requirements.txt
-
-3. Run the application:
-
-bashpython fs25_translator.py
-
+# 2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+# 3. Run the application:
+```bash
+python fs25_translator.py
+```
 📖 How to Use
 First Time Setup
 
@@ -100,7 +101,7 @@ Translations are saved to the l10n folder
 Source Language
 The tool automatically detects the source language from your filename (e.g., l10n_en.xml → English). You can manually override this using the dropdown menu.
 
-🔑 API Keys
+## 🔑 API Keys
 DeepL API (Recommended)
 For best translation quality, get a free DeepL API key:
 
@@ -120,7 +121,7 @@ Linux: Secret Service API
 
 See README_SECURITY.md for detailed security information.
 
-📁 Project Structure
+## 📁 Project Structure
 FS25_Language_Translator/
 ├── fs25_translator.py       # Main application
 ├── api_key_dialog.py        # API key input dialog
@@ -132,13 +133,15 @@ FS25_Language_Translator/
     ├── icon.ico           # Main icon
     └── flags/             # Country flag icons
 
-🛠️ Building Executable (Optional)
+## 🛠️ Building Executable (Optional)
 To create a standalone executable:
-bashpip install pyinstaller
+```bash
+pip install pyinstaller
 pyinstaller --onefile --windowed --icon=icons/icon.ico fs25_translator.py
+```
 The executable will be created in the dist folder.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 Fork the repository
@@ -147,17 +150,17 @@ Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 DeepL for excellent translation API
 Google Translate for fallback translations
 GIANTS Software for Farming Simulator 25
 The modding community for inspiration and support
 
-🐛 Troubleshooting
+## 🐛 Troubleshooting
 Common Issues
 "Failed to access secure storage"
 
@@ -183,14 +186,14 @@ Create an Issue for bugs
 Check existing issues for solutions
 Read README_SECURITY.md for API key issues
 
-📊 Performance
+## 📊 Performance
 
 Translates approximately 100-200 strings per minute
 DeepL provides higher quality for European languages
 Google Translate offers broader language support
 Batch processing reduces API calls
 
-🔄 Updates
+## 🔄 Updates
 Check the Releases page for updates.
 
 Made with ❤️ for the Farming Simulator modding community
@@ -201,4 +204,5 @@ Not affiliated with GIANTS Software GmbH
 ## 👨‍💻 Author
 
 Created by **Piplarsson**
+
 
