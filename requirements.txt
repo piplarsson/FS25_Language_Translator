@@ -1,0 +1,6 @@
+PyQt6>=6.5.0
+deepl>=1.16.0
+googletrans==4.0.0rc1
+keyring>=24.0.0
+certifi>=2023.0.0
+pyinstaller>=6.0.0
