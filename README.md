@@ -122,6 +122,7 @@ Linux: Secret Service API
 See README_SECURITY.md for detailed security information.
 
 ## 📁 Project Structure
+```bash
 FS25_Language_Translator/
 ├── fs25_translator.py       # Main application
 ├── api_key_dialog.py        # API key input dialog
@@ -132,7 +133,7 @@ FS25_Language_Translator/
 └── icons/                  # Application icons
     ├── icon.ico           # Main icon
     └── flags/             # Country flag icons
-
+```
 ## 🛠️ Building Executable (Optional)
 To create a standalone executable:
 ```bash
@@ -204,6 +205,7 @@ Not affiliated with GIANTS Software GmbH
 ## 👨‍💻 Author
 
 Created by **Piplarsson**
+
 
 
 
